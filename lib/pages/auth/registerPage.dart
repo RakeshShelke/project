@@ -84,7 +84,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             )),
                         onChanged: (value) {
                           setState(() {
-                            email = value;
+                            email = value.trim();
                           });
                         },
                         validator: (value) {
