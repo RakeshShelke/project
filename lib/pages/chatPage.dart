@@ -208,16 +208,16 @@ class _ChatPageState extends State<ChatPage> {
                             ),
                             color: Theme.of(context).primaryColor,
                           ),
-                          suffixIcon: IconButton(
-                            icon: Icon(
-                              Icons.image,
-                              color: Theme.of(context).primaryColor,
-                            ),
-                            onPressed: () async {
-                              getImage();
-                              //pickImage(context: context);
-                            },
-                          ),
+                          // suffixIcon: IconButton(
+                          //   icon: Icon(
+                          //     Icons.image,
+                          //     color: Theme.of(context).primaryColor,
+                          //   ),
+                          //   onPressed: () async {
+                          //     getImage();
+                          //     //pickImage(context: context);
+                          //   },
+                          // ),
                         ),
                       ),
                     ),

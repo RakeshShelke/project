@@ -69,7 +69,7 @@ flutter_app_name:
   name: "We Chat"
 
 flutter_icons:
-  image_path: "assets/flutter.jpg"
+  image_path: "assets/wechat.png"
   android: true
   ios: true
 
